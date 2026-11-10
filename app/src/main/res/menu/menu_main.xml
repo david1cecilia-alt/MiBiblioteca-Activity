@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Ejercicio 1: búsqueda por título -->
+    <item
+        android:id="@+id/action_buscar"
+        android:icon="@drawable/ic_search"
+        android:title="@string/buscar"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <!-- Ejercicio 2: solo pendientes -->
+    <item
+        android:id="@+id/action_pendientes"
+        android:checkable="true"
+        android:title="@string/solo_pendientes"
+        app:showAsAction="never" />
+</menu>

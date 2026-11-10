@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Mi Biblioteca</string>
+
+    <string name="hint_titulo">Título</string>
+    <string name="hint_autor">Autor</string>
+    <string name="hint_paginas">Páginas</string>
+    <string name="hint_valoracion">Valoración</string>
+    <string name="anadir">Añadir</string>
+    <string name="leido">Leído</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="eliminar_libro">Eliminar libro</string>
+    <string name="sin_libros">Aún no hay libros.\nAñade el primero con el formulario de arriba.</string>
+    <string name="sin_resultados">Ningún libro coincide con el filtro.</string>
+
+    <string name="error_obligatorio">Obligatorio</string>
+    <string name="error_paginas">Número no válido</string>
+    <string name="libro_guardado">Libro guardado en la base de datos</string>
+    <string name="libro_eliminado">Libro eliminado</string>
+    <string name="deshacer">Deshacer</string>
+
+    <string name="paginas_formato">%1$d páginas</string>
+    <string name="resumen_libros">%1$d libros · %2$d leídos</string>
+
+    <!-- Ampliación -->
+    <string name="buscar">Buscar</string>
+    <string name="buscar_hint">Buscar por título</string>
+    <string name="solo_pendientes">Ver solo pendientes</string>
+    <string name="confirmar_titulo">¿Eliminar libro?</string>
+    <string name="confirmar_mensaje">Se eliminará «%1$s» de la biblioteca.</string>
+    <string name="cancelar">Cancelar</string>
+</resources>
