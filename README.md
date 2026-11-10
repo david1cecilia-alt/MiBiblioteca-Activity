@@ -35,7 +35,20 @@ app/src/main/java/es/example/mibiblioteca/
 
 ## Documentación
 
-Las capturas de las pruebas (lista de libros, confirmación de borrado, persistencia y Database Inspector) y las respuestas a las preguntas de comprobación están en [`docs/MiBiblioteca_Room_Hilos_Capturas_y_Respuestas.pdf`](docs/MiBiblioteca_Room_Hilos_Capturas_y_Respuestas.pdf).
+Las capturas de las pruebas y las respuestas a las preguntas de comprobación están en [`docs/MiBiblioteca_Room_Hilos_Capturas_y_Respuestas.pdf`](docs/MiBiblioteca_Room_Hilos_Capturas_y_Respuestas.pdf). Las imágenes sueltas están en [`docs/capturas/`](docs/capturas/).
+
+| Captura | Prueba |
+|---|---|
+| 1 | Libros añadidos y ordenados por título |
+| 2 | Validación de campos vacíos |
+| 3 | Marcar «Leído»: el contador sube |
+| 4 | Confirmación antes de eliminar (ejercicio 4) |
+| 5 | Libro eliminado con «Deshacer» |
+| 6 | Libro recuperado tras «Deshacer» |
+| 7 | Los datos persisten tras cerrar y reabrir la app |
+| 8 | Database Inspector: tabla `libros` |
+| 9 | Búsqueda por título (ejercicio 1) |
+| 10 | Ver solo pendientes (ejercicio 2) |
 
 ## Cómo ejecutarlo
 
